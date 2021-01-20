@@ -46,22 +46,12 @@
     margin-top: 1em;
     margin-bottom: 0%;
     padding-bottom: 0%;
-    font-weight: 200;
 }
 
 .first-row{
     margin-top: 8.5em;
 }
 
-.bigger{
-    font-family: arial,"Helvetica Neue",sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 0.8em;
-    letter-spacing: 0em;
-    line-height: 1em;
-    text-transform: uppercase;
-}
 .row-left{
     margin-left: 1em;
     
@@ -83,7 +73,7 @@
     letter-spacing: .1em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #222;
+    color: #fff;
     transition: color .15s ease-out;
     white-space: nowrap;
 }
@@ -104,32 +94,19 @@ body {
 
 
 .Header-branding{
-    line-height: 1em;
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 0em;
+    line-height: .8em;
     text-transform: capitalize;
-    color: #222;
+    color: #fff;
     margin-bottom: 0%;
     padding-bottom: 0%;
     text-decoration: none;
-
-    font-family: arial,"Helvetica Neue",sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 50px;
-    letter-spacing: -.08em;
-
-    
-    
    
     
-    
-}
-
-.contact{
-    font-family: arial,"Helvetica Neue",sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 50px;
-    letter-spacing: -.08em;
 }
 
 .top-bar{
@@ -151,7 +128,7 @@ a.hover{
     letter-spacing: .24em;
     line-height: 1em;
     text-transform: uppercase;
-    color: #222;
+    color: #fff;
     text-decoration: none;
     
     padding-top: 0%;
@@ -163,7 +140,7 @@ a:hover{
     text-shadow: 0.1em;
 }
 .Header-nav{
-    font-family: "Helvetica Neue",sans-serif;
+    font-family: bebas-neue;
     font-weight: 400;
     font-style: normal;
     font-size: 23px;
@@ -171,7 +148,7 @@ a:hover{
     text-transform: uppercase;
 }
 .logo {
-    line-height: 50px;
+    line-height: 60px;
     position: fixed;
     float: left;
     margin: 16px ;
@@ -189,17 +166,16 @@ nav {
 }
 
 nav ul {
-    line-height: 30px;
+    line-height: 40px;
     list-style: none;
     background: rgba(0, 0, 0, 0);
     overflow: hidden;
-    color: #222;
+    color: #fff;
     padding: 0;
     text-align: right;
     margin: 0;
     padding-right: 10px;
     transition: 1s;
-    font-weight: 300;
 }
 
 nav.black ul {
@@ -215,7 +191,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #222;
+    color: #fff;
     font-size: 16px;
 }
 
@@ -227,7 +203,7 @@ nav ul li a {
     box-sizing: border-box;
     
     cursor: pointer;
-    color: #222;
+    color: #fff;
     display: none;
 }
 
@@ -278,7 +254,12 @@ nav ul li a {
     
 }
 
-
+body {
+    background-image: url("../images/bw.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
 
 #left-nav{
     text-align: right;
@@ -289,10 +270,10 @@ nav ul li a {
     padding-top: 0%;
 }
 .Header-branding{
-    font-family: arial,"Helvetica Neue",sans-serif;
-    font-weight: 600;
+    font-family: bebas-neue;
+    font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 0em;
     line-height: .6em;
     text-transform: capitalize;
