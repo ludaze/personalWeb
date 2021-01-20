@@ -123,13 +123,40 @@ body {
     
     
 }
+.con{
+    margin-bottom: 0%;
+}
 
+.mail-tag{
+    margin-top: 0%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mid-con{
+    
+    font-family: arial,"Helvetica Neue",sans-serif;
+    text-align: center;
+    white-space: pre-wrap;
+    
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .02em;
+    outline: none;
+    text-transform: none;
+    color: #222;
+    margin: 0%;
+}
 .contact{
     font-family: arial,"Helvetica Neue",sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
     letter-spacing: -.08em;
+    text-align: center;
+    
+    margin: 0%;
 }
 
 .top-bar{
