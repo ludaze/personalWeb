@@ -46,7 +46,9 @@
     margin-top: 1em;
     margin-bottom: 0%;
     padding-bottom: 0%;
-    font-weight: 200;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    line-height: inherit;
 }
 
 .first-row{
@@ -95,7 +97,7 @@ html, body {
 }
 
 body {
-    font-family: "Helvetica Neue",sans-serif;
+    font-family: arial,"Helvetica Neue",sans-serif;
     font-weight: lighter;
 }
 
@@ -111,7 +113,7 @@ body {
     padding-bottom: 0%;
     text-decoration: none;
 
-    font-family: arial,"Helvetica Neue",sans-serif;
+    font-family: monospace;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
@@ -185,12 +187,19 @@ a.hover{
     margin-left: 1em;
     
 }
+.icon-center{
+    text-align: center;
+    margin-left: 33%;
+}
+.increase-link{
+    size: 5em;
+}
 a:hover{
     text-decoration: none;
     text-shadow: 0.1em;
 }
 .Header-nav{
-    font-family: "Helvetica Neue",sans-serif;
+    font-family: arial,"Helvetica Neue",sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 23px;
