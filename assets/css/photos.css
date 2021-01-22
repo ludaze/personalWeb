@@ -4,9 +4,6 @@
     top: 0;
     left: 0;
     
-    
-    
-    
     background-repeat: no-repeat;
     position: absolute;
     
@@ -14,6 +11,9 @@
     height: 100%;
     
     opacity: 0;
+}
+.book-mar{
+    padding: 5%;
 }
 .row-span{
     width: 98%;
@@ -129,6 +129,11 @@ body {
     margin-bottom: 0%;
 }
 
+.non-dec{
+    text-decoration: none;
+    color: black;
+}
+
 .mail-tag{
     margin-top: 0%;
     font-weight: bold;
@@ -137,6 +142,20 @@ body {
 
 .mid-con{
     
+    font-family: arial,"Helvetica Neue",sans-serif;
+    text-align: center;
+    white-space: pre-wrap;
+    
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .02em;
+    outline: none;
+    text-transform: none;
+    color: #222;
+    margin: 0%;
+}
+.mid-con2{
     font-family: arial,"Helvetica Neue",sans-serif;
     text-align: center;
     white-space: pre-wrap;
@@ -160,9 +179,23 @@ body {
     
     margin: 0%;
 }
+.books{
+    font-family: arial,"Helvetica Neue",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: -.08em;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
 
 .top-bar{
     margin-top: 1em;
+}
+.cen{
+    text-align: center;
+    margin-left: 10em;
 }
 a.hover{
     text-decoration: none;
@@ -205,6 +238,8 @@ a:hover{
     font-size: 23px;
     letter-spacing: .1em;
     text-transform: uppercase;
+
+    background-color: white;
 }
 .logo {
     line-height: 50px;
@@ -215,6 +250,7 @@ a:hover{
 
     font-weight: bold;
     font-size: 20px;
+    background-color: white;
     
 }
 
@@ -222,6 +258,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 30px;
+    background-color: white;
 }
 
 nav ul {
@@ -236,16 +273,18 @@ nav ul {
     padding-right: 10px;
     transition: 1s;
     font-weight: 300;
+    background-color: white;
 }
 
 nav.black ul {
     background: #000;
+    background-color: white;
 }
 
 nav ul li {
     display: inline-block;
     padding-top: 0px ;
-    padding-right: 13px;
+    padding-right: 13px;background-color: white;
     
 }
 
@@ -253,6 +292,7 @@ nav ul li a {
     text-decoration: none;
     color: #222;
     font-size: 16px;
+    background-color: white;
 }
 
 .menu-icon {
@@ -333,6 +373,7 @@ nav ul li a {
     line-height: .6em;
     text-transform: capitalize;
     
+    background-color: white;
 }
 
 
